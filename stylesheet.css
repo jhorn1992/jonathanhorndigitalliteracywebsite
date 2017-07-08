@@ -503,13 +503,7 @@
         text-decoration: none
         font-family: "Verdana", sans-serif;
     }
-    a {
-        display: inline-block;
-        padding: 14px 16px;
-        text-decoration: none;
-        color: darkgrey
-    }
-    a:hover {
+    li a:hover {
         background-color: #111;
         text-decoration: none;
     }
@@ -608,13 +602,7 @@
         text-decoration: none
         font-family: "Verdana", sans-serif;
     }
-    a {
-        display: inline-block;
-        padding: 14px 16px;
-        text-decoration: none;
-        color: darkgrey
-    }
-    a:hover {
+    li a:hover {
         background-color: #111;
         text-decoration: none;
     }
@@ -809,13 +797,7 @@
         text-decoration: none
         font-family: "Verdana", sans-serif;
     }
-    a {
-        display: inline-block;
-        padding: 14px 16px;
-        text-decoration: none;
-        color: darkgrey
-    }
-    a:hover {
+    li a:hover {
         background-color: #111;
         text-decoration: none;
     }
@@ -914,13 +896,7 @@
         text-decoration: none
         font-family: "Verdana", sans-serif;
     }
-    a {
-        display: inline-block;
-        padding: 14px 16px;
-        text-decoration: none;
-        color: darkgrey
-    }
-    a:hover {
+    li a:hover {
         background-color: #111;
         text-decoration: none;
     }
