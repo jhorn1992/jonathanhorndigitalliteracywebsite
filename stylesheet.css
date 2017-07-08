@@ -1,0 +1,977 @@
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: black;
+    }
+
+    li a {
+        display: block;
+        color: darkgray;
+        text-align: center;
+        padding: 8px 16px;
+        text-decoration: none;
+        overflow: hidden;
+        font-family: "Verdana", sans-serif;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+    .active {
+        color: white;
+    }
+
+    a.paragraph:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:active {
+        color: black;
+        text-decoration: none;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    p {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+
+    p.works_cited {
+        text-align: left;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:link, a.button:visited {
+        background-color: black;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        width: 25%;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:hover, a.button:active {
+        background-color: black
+    }
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) and (max-width: 480px){
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: black;
+    }
+
+    li a {
+        display: block;
+        color: darkgray;
+        text-align: center;
+        padding: 8px 16px;
+        text-decoration: none;
+        overflow: hidden;
+        font-family: "Verdana", sans-serif;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+    .active {
+        color: white;
+    }
+
+    a.paragraph:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:active {
+        color: black;
+        text-decoration: none;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    p {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+    p.works_cited {
+        text-align: left;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:link, a.button:visited {
+        background-color: black;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        width: 25%;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:hover, a.button:active {
+        background-color: black
+    }
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: black;
+    }
+
+    li a {
+        display: block;
+        color: darkgray;
+        text-align: center;
+        padding: 8px 16px;
+        text-decoration: none;
+        overflow: hidden;
+        font-family: "Verdana", sans-serif;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+    .active {
+        color: white;
+    }
+
+    a.paragraph:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:active {
+        color: black;
+        text-decoration: none;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    p {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+
+    p.works_cited {
+        text-align: left;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:link, a.button:visited {
+        background-color: black;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        width: 25%;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:hover, a.button:active {
+        background-color: black
+    }
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+/* Tablet (portrait) ----------- */
+@media only screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation: portrait) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: black;
+    }
+
+    li a {
+        display: block;
+        color: darkgray;
+        text-align: center;
+        padding: 8px 16px;
+        text-decoration: none;
+        overflow: hidden;
+        font-family: "Verdana", sans-serif;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+    .active {
+        color: white;
+    }
+
+    a.paragraph:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:active {
+        color: black;
+        text-decoration: none;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    p {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+    p.works_cited {
+        text-align: left;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:link, a.button:visited {
+        background-color: black;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        width: 25%;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:hover, a.button:active {
+        background-color: black
+    }
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+
+
+/* Tablet (portrait) ----------- */
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: black;
+    }
+
+    li a {
+        display: block;
+        color: darkgray;
+        text-align: center;
+        padding: 8px 16px;
+        text-decoration: none;
+        overflow: hidden;
+        font-family: "Verdana", sans-serif;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+    .active {
+        color: white;
+    }
+
+    a.paragraph:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:active {
+        color: black;
+        text-decoration: none;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    p {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+    p.works_cited {
+        text-align: left;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:link, a.button:visited {
+        background-color: black;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        width: 25%;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:hover, a.button:active {
+        background-color: black
+    }
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+/* Tablet (landscape) ----------- */
+@media only screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation: landscape) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: darkgray;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: "Verdana", sans-serif;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+    .active {
+        color: white;
+    }
+
+    a.paragraph:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:active {
+        color: black;
+        text-decoration: none;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    p {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+    p.works_cited {
+        text-align: left;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:link, a.button:visited {
+        background-color: black;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        width: 5%;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:hover, a.button:active {
+        background-color: black
+    }
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+/* iPads (landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: darkgray;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: "Verdana", sans-serif;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+    .active {
+        color: white;
+    }
+
+    a.paragraph:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:active {
+        color: black;
+        text-decoration: none;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    p {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+    p.works_cited {
+        text-align: left;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:link, a.button:visited {
+        background-color: black;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        width: 5%;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:hover, a.button:active {
+        background-color: black
+    }
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+/* iPads (portrait) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        background-color: black;
+    }
+
+    li a {
+        display: block;
+        color: darkgray;
+        text-align: center;
+        padding: 8px 16px;
+        text-decoration: none;
+        overflow: hidden;
+        font-family: "Verdana", sans-serif;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+    .active {
+        color: white;
+    }
+
+    a.paragraph:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:active {
+        color: black;
+        text-decoration: none;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    p {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+    p.works_cited {
+        text-align: left;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:link, a.button:visited {
+        background-color: black;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        width: 25%;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:hover, a.button:active {
+        background-color: black
+    }
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 768px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: darkgray;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: "Verdana", sans-serif;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+    .active {
+        color: white;
+    }
+
+    a.paragraph:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:active {
+        color: black;
+        text-decoration: none;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    p {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+    p.works_cited {
+        text-align: left;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:link, a.button:visited {
+        background-color: black;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        width: 5%;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:hover, a.button:active {
+        background-color: black
+    }
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+/* Large screens ----------- */
+@media only screen  and (min-width : 1824px) {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        max-width: 100%;
+        overflow: hidden;
+        background-color: black;
+    }
+
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        color: darkgray;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: "Verdana", sans-serif;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    li a:hover {
+        background-color: #111;
+    }
+    .active {
+        color: white;
+    }
+
+    a.paragraph:link {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:visited {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:hover {
+        color: black;
+        text-decoration: none;
+    }
+
+    a.paragraph:active {
+        color: black;
+        text-decoration: none;
+    }
+
+    h2 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    h1 {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    p {
+        text-align: center;
+        font-family: "Verdana", sans-serif;
+    }
+
+    img {
+        display: block;
+        margin: auto;
+        width: 50%;
+    }
+
+    p.works_cited {
+        text-align: left;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:link, a.button:visited {
+        background-color: black;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: block;
+        margin: auto;
+        width: 5%;
+        font-family: "Verdana", sans-serif
+    }
+
+    a.button:hover, a.button:active {
+        background-color: black
+    }
+
+    body {
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
