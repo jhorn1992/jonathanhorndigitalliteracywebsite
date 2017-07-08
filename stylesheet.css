@@ -482,7 +482,7 @@
 
 /* Tablet (landscape) ----------- */
 @media only screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation: landscape) {
-    .nav {
+    ul {
         border: 1px solid black;
         border-width:1px 0;
         list-style: none;
@@ -491,11 +491,11 @@
         text-align: center;
         background-color: black;
     }
-    .nav li {
+     li {
         display: inline;
         color: white;
     }
-    .nav li a {
+    li a {
         display: inline-block;
         color: darkgray;
         text-align: center;
@@ -503,13 +503,13 @@
         text-decoration: none
         font-family: "Verdana", sans-serfif;
     }
-    .nav a {
+    a {
         display: inline-block;
         padding: 14px 16px;
         text-decoration: none;
         color: darkgrey
     }
-    .nav a:hover {
+    a:hover {
         background-color: #111;
         text-decoration: none;
     }
@@ -587,7 +587,7 @@
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-    .nav {
+    ul {
         border: 1px solid black;
         border-width:1px 0;
         list-style: none;
@@ -596,11 +596,11 @@
         text-align: center;
         background-color: black;
     }
-    .nav li {
+    li {
         display: inline;
         color: white;
     }
-    .nav li a {
+    li a {
         display: inline-block;
         color: darkgray;
         text-align: center;
@@ -608,13 +608,13 @@
         text-decoration: none
         font-family: "Verdana", sans-serfif;
     }
-    .nav a {
+    a {
         display: inline-block;
         padding: 14px 16px;
         text-decoration: none;
         color: darkgrey
     }
-    .nav a:hover {
+    a:hover {
         background-color: #111;
         text-decoration: none;
     }
@@ -788,7 +788,7 @@
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 768px) {
-    .nav {
+    ul {
         border: 1px solid black;
         border-width:1px 0;
         list-style: none;
@@ -797,11 +797,11 @@
         text-align: center;
         background-color: black;
     }
-    .nav li {
+    li {
         display: inline;
         color: white;
     }
-    .nav li a {
+    li a {
         display: inline-block;
         color: darkgray;
         text-align: center;
@@ -809,13 +809,13 @@
         text-decoration: none
         font-family: "Verdana", sans-serfif;
     }
-    .nav a {
+    a {
         display: inline-block;
         padding: 14px 16px;
         text-decoration: none;
         color: darkgrey
     }
-    .nav a:hover {
+    a:hover {
         background-color: #111;
         text-decoration: none;
     }
@@ -893,7 +893,7 @@
 
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
-    .nav {
+    ul {
         border: 1px solid black;
         border-width:1px 0;
         list-style: none;
@@ -902,11 +902,11 @@
         text-align: center;
         background-color: black;
     }
-    .nav li {
+    li {
         display: inline;
         color: white;
     }
-    .nav li a {
+    li a {
         display: inline-block;
         color: darkgray;
         text-align: center;
@@ -914,13 +914,13 @@
         text-decoration: none
         font-family: "Verdana", sans-serfif;
     }
-    .nav a {
+    a {
         display: inline-block;
         padding: 14px 16px;
         text-decoration: none;
         color: darkgrey
     }
-    .nav a:hover {
+    a:hover {
         background-color: #111;
         text-decoration: none;
     }
