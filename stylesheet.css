@@ -482,31 +482,36 @@
 
 /* Tablet (landscape) ----------- */
 @media only screen and (min-device-width: 481px) and (max-device-width: 767px) and (orientation: landscape) {
-    ul {
-        list-style-type: none;
+    .nav {
+        border: 1px solid black;
+        border-width:1px 0;
+        list-style: none;
         margin: 0;
         padding: 0;
-        max-width: 100%;
-        overflow: hidden;
+        text-align: center;
         background-color: black;
     }
-
-    li {
-        float: left;
+    .nav li {
+        display: inline;
+        color: white;
     }
-
-    li a {
-        display: block;
+    .nav li a {
+        display: inline-block;
         color: darkgray;
         text-align: center;
         padding: 14px 16px;
-        text-decoration: none;
-        font-family: "Verdana", sans-serif;
+        text-decoration: none
+        font-family: "Verdana", sans-serfif;
     }
-
-    /* Change the link color to #111 (black) on hover */
-    li a:hover {
+    .nav a {
+        display: inline-block;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: darkgrey
+    }
+    .nav a:hover {
         background-color: #111;
+        text-decoration: none;
     }
     .active {
         color: white;
@@ -582,31 +587,36 @@
 
 /* iPads (landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-    ul {
-        list-style-type: none;
+    .nav {
+        border: 1px solid black;
+        border-width:1px 0;
+        list-style: none;
         margin: 0;
         padding: 0;
-        max-width: 100%;
-        overflow: hidden;
+        text-align: center;
         background-color: black;
     }
-
-    li {
-        float: left;
+    .nav li {
+        display: inline;
+        color: white;
     }
-
-    li a {
-        display: block;
+    .nav li a {
+        display: inline-block;
         color: darkgray;
         text-align: center;
         padding: 14px 16px;
-        text-decoration: none;
-        font-family: "Verdana", sans-serif;
+        text-decoration: none
+        font-family: "Verdana", sans-serfif;
     }
-
-    /* Change the link color to #111 (black) on hover */
-    li a:hover {
+    .nav a {
+        display: inline-block;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: darkgrey
+    }
+    .nav a:hover {
         background-color: #111;
+        text-decoration: none;
     }
     .active {
         color: white;
@@ -778,31 +788,36 @@
 
 /* Desktops and laptops ----------- */
 @media only screen  and (min-width : 768px) {
-    ul {
-        list-style-type: none;
+    .nav {
+        border: 1px solid black;
+        border-width:1px 0;
+        list-style: none;
         margin: 0;
         padding: 0;
-        max-width: 100%;
-        overflow: hidden;
+        text-align: center;
         background-color: black;
     }
-
-    li {
-        float: left;
+    .nav li {
+        display: inline;
+        color: white;
     }
-
-    li a {
-        display: block;
+    .nav li a {
+        display: inline-block;
         color: darkgray;
         text-align: center;
         padding: 14px 16px;
-        text-decoration: none;
-        font-family: "Verdana", sans-serif;
+        text-decoration: none
+        font-family: "Verdana", sans-serfif;
     }
-
-    /* Change the link color to #111 (black) on hover */
-    li a:hover {
+    .nav a {
+        display: inline-block;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: darkgrey
+    }
+    .nav a:hover {
         background-color: #111;
+        text-decoration: none;
     }
     .active {
         color: white;
@@ -878,31 +893,36 @@
 
 /* Large screens ----------- */
 @media only screen  and (min-width : 1824px) {
-    ul {
-        list-style-type: none;
+    .nav {
+        border: 1px solid black;
+        border-width:1px 0;
+        list-style: none;
         margin: 0;
         padding: 0;
-        max-width: 100%;
-        overflow: hidden;
+        text-align: center;
         background-color: black;
     }
-
-    li {
-        float: left;
+    .nav li {
+        display: inline;
+        color: white;
     }
-
-    li a {
-        display: block;
+    .nav li a {
+        display: inline-block;
         color: darkgray;
         text-align: center;
         padding: 14px 16px;
-        text-decoration: none;
-        font-family: "Verdana", sans-serif;
+        text-decoration: none
+        font-family: "Verdana", sans-serfif;
     }
-
-    /* Change the link color to #111 (black) on hover */
-    li a:hover {
+    .nav a {
+        display: inline-block;
+        padding: 14px 16px;
+        text-decoration: none;
+        color: darkgrey
+    }
+    .nav a:hover {
         background-color: #111;
+        text-decoration: none;
     }
     .active {
         color: white;
