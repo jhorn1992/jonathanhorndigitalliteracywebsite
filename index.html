@@ -12,7 +12,7 @@
 
 <ul>
     <li><a class="active" href="index.html">Home</a></li>
-    <li><a href="topics.html">Topics</a></li>
+    <li><a class="page-link" href="{{ page.url | remove: '.html' | prepend: site.baseurl }}">{{ page.title }}</a></li>
     <li><a href="works_cited.html">Works Cited</a></li>
 </ul>
 
